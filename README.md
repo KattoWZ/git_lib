@@ -163,8 +163,7 @@ Create and push a version tag to the remote repo.
 git tag -d <tag_name>
 git fetch --prune-tags
 ```
-The **fetch --prune-tags** is to check if the tag is already deleted on the remote or not
----
+The fetch --prune-tags is to check if the tag is already deleted on the remote or not
 
 ## 🔄 Merging More Than Once
 
