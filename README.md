@@ -145,27 +145,19 @@ git stash pop
 Temporarily save and restore uncommitted changes.
 
 ---
-
-## 📌 Tagging Releases
-
-```bash
-git tag v1.0
-git push origin v1.0
-```
-Create and push a version tag to the remote repo.
-
----
 # 🏷️ Git Tagging System Guide
 
 Git tags are used to mark specific points in a repository’s history as important — usually for **releases**, **version control**, or **milestone tracking**.
-
 
 ## 📌 Tagging Basics
 
 ### 🔹 Create a Lightweight Tag
 ```bash
 git tag <tag_name>
+git push origin <tag_name>
 ```
+Create and push a version tag to the remote repo.
+
 ### Delete a tag
 ```bash
 git tag -d <tag_name>
