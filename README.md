@@ -47,6 +47,14 @@ Add specific files or all changes to the staging area.
 git commit -m "Your descriptive commit message"
 ```
 Commit staged changes with a message.
+Below are the list for commit message 
+- refactor: = use this when changing something that is not affecting how the programs works, such as renaming function, variable etc. or making things more tidy
+- fix: = use this when fixing something or bug
+- docs: = use this when updating documentation
+- style: = use this when chaning formatting, spacing, or comments only
+- test: = use this when add or improve tests
+  Example for usage
+    - refactor: changing function name status() into get_status()
 
 ---
 
